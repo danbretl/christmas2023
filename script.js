@@ -1,19 +1,18 @@
 const items = [
-    { name: "Moss wall art", imageUrl: "https://via.placeholder.com/300", url: "https://mossfusion.com/collections/moss-wall-art" },
-    { name: "More moss wall art", imageUrl: "https://via.placeholder.com/300", url: "https://mossartinstallations.com/collections/all" },
-    { name: "Moss prism terrarium", imageUrl: "https://via.placeholder.com/300", url: "https://ome.design/products/prism" },
-    { name: "Motion lights (for the cabin?)", imageUrl: "https://via.placeholder.com/300", url: "https://popular.lighting/products/circly" },
-    { name: "Everyday light up calendar", imageUrl: "https://via.placeholder.com/300", url: "https://yetch.store/products/every-day-goal-calendar" },
-    { name: "Wine preserver", imageUrl: "https://via.placeholder.com/300", url: "https://usa.etowine.com/collections/eto/products/copper-mirror-finish" },
-    { name: "Kindling splitter", imageUrl: "https://via.placeholder.com/300", url: "https://www.itoolmax.com/products/wall-mounted-firewood-kindling-splitter" },
-    { name: "Crazy top", imageUrl: "https://via.placeholder.com/300", url: "https://www.vorsospin.com/" },
-    { name: "Lazy Susan for Azul board game", imageUrl: "https://via.placeholder.com/300", url: "" }, // You can add an image and URL if available
-    { name: "Catan replacement parts (red roads, blue roads & settlement)", imageUrl: "https://via.placeholder.com/300", url: "" }, // You can add an image and URL if available
-    { name: "Sound ball", imageUrl: "https://via.placeholder.com/300", url: "https://oddballism.com/en-us/products/odd-ball" },
-    { name: "Everdell Farshore", imageUrl: "https://via.placeholder.com/300", url: "https://www.tabletoptycoon.com/products/farshore" },
-    { name: "Full finger wrist guards", imageUrl: "https://via.placeholder.com/300", url: "https://fxnctiongear.com/products/sender-wrist-guards?variant=45593109070140" },
-    { name: "Colorful jumpsuit", imageUrl: "https://via.placeholder.com/300", url: "https://coofandystore.com/products/coofandy-hooded-fleece-solid-color-jumpsuit?variant=43603847905530" },
-    { name: "iPad pencil screen", imageUrl: "https://via.placeholder.com/300", url: "https://shop.astropad.com/products/rock-paper-pencil?variant=41534944182404" }
+    { name: "Moss wall art", imageUrl: "images/1-moss-wall-art-1.jpg", url: "https://mossfusion.com/collections/moss-wall-art" },
+    { name: "More moss wall art", imageUrl: "images/2-moss-wall-art-2.jpg", url: "https://mossartinstallations.com/collections/all" },
+    { name: "Moss prism terrarium", imageUrl: "images/3-moss-prism.jpg", url: "https://ome.design/products/prism?variant=44685216547068" },
+    { name: "Motion lights (for the cabin?)", imageUrl: "4-motion-lights.jpg", url: "https://popular.lighting/products/circly" },
+    { name: "Everyday light up calendar", imageUrl: "images/5-everyday-calendar.jpg", url: "https://yetch.store/products/every-day-goal-calendar" },
+    { name: "Wine preserver", imageUrl: "images/6-wine-decanter.jpg", url: "https://usa.etowine.com/collections/eto/products/copper-mirror-finish" },
+    { name: "Kindling splitter", imageUrl: "images/7-wood-splitter.jpg", url: "https://www.itoolmax.com/products/wall-mounted-firewood-kindling-splitter" },
+    { name: "Crazy top", imageUrl: "images/8-spinning-top.jpg", url: "https://www.vorsospin.com/" },
+    { name: "Lazy Susan for Azul board game", imageUrl: "images/9-lazy-susan.jpg", url: "" },
+    { name: "Catan replacement parts (red roads, blue roads & settlement)", imageUrl: "images/10-catan-pieces.jpg", url: "" },
+    { name: "Sound ball", imageUrl: "images/11-sound-ball.jpg", url: "https://oddballism.com/en-us/products/odd-ball" },
+    { name: "Everdell Farshore", imageUrl: "images/12-everdell-farshore.jpg", url: "https://www.tabletoptycoon.com/products/farshore" },
+    { name: "Full finger wrist guards", imageUrl: "images/13-wrist-guards.jpg", url: "https://fxnctiongear.com/products/sender-wrist-guards?variant=45593109070140" },
+    { name: "Colorful jumpsuit", imageUrl: "images/14-jumpsuit.jpg", url: "https://coofandystore.com/products/coofandy-hooded-fleece-solid-color-jumpsuit?variant=43603847905530" },
 ];
 
 const gridContainer = document.getElementById("itemGrid");

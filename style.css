@@ -5,7 +5,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh; /* Set the body height to 100% of the viewport height */
-    background-image: url('snowflake.png'); /* Add a snowflake image or choose your own snowy background */
+    background-image: url('images/snowflake.png'); /* Add a snowflake image or choose your own snowy background */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
