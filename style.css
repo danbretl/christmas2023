@@ -38,13 +38,13 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
-    padding: 40px 20px; /* Increased top padding to ensure items are visible on smaller screens */
+    padding: 20px;
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 8px;
 }
 
 .grid-item {
-    flex: 0 1 calc(33.33% - 20px);
+    flex: 0 1 calc(33.33% - 20px); /* Three items per row, with 20px gap in between */
     box-sizing: border-box;
     margin: 10px;
 }
@@ -72,6 +72,6 @@ body {
 /* Media Query for smaller screens (e.g., iPhones) */
 @media only screen and (max-width: 767px) {
     .grid-item {
-        flex: 0 1 calc(50% - 20px);
+        flex: 0 1 calc(50% - 20px); /* Two items per row for smaller screens */
     }
 }
