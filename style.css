@@ -2,22 +2,22 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     display: flex;
-    align-items: center;
+    align-items: flex-start; /* Adjusted to start from the top */
     justify-content: center;
-    height: 100vh; /* Set the body height to 100% of the viewport height */
-    background-image: url('images/snowflake.png'); /* Add a snowflake image or choose your own snowy background */
+    height: 100vh;
+    background-image: url('images/snowflake.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .grid-container {
-    display: flex; /* Change from grid to flex */
-    flex-wrap: wrap; /* Allow items to wrap to the next row */
-    justify-content: center; /* Horizontally center items within the container */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 10px;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for better readability */
+    background-color: rgba(255, 255, 255, 0.8);
     border-radius: 8px;
 }
 
