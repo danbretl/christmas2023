@@ -39,18 +39,16 @@ items.forEach(item => {
     itemDescription.textContent = item.description;
     itemDescription.classList.add("item-description");
 
-    const itemUrl = document.createElement("a");
-    itemUrl.href = item.url;
-    itemUrl.target = "_blank";
-    itemUrl.textContent = "Visit Website";
-    itemUrl.classList.add("item-url");
-
     details.appendChild(itemName);
     details.appendChild(itemDescription);
-    details.appendChild(itemUrl);
 
     gridItem.appendChild(image);
     gridItem.appendChild(details);
+
+    // Add an event listener to open the URL when clicking on the grid item
+    gridItem.addEventListener("click", () => {
+        window.open(item.url, "_blank");
+    });
 
     gridContainer.appendChild(gridItem);
 });
