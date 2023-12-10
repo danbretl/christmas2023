@@ -2,7 +2,7 @@ const items = [
     { name: "Moss wall art", imageUrl: "images/1-moss-wall-art-1.jpg", url: "https://mossfusion.com/collections/moss-wall-art" },
     { name: "More moss wall art", imageUrl: "images/2-moss-wall-art-2.jpg", url: "https://mossartinstallations.com/collections/all" },
     { name: "Moss prism terrarium", imageUrl: "images/3-moss-prism.jpg", url: "https://ome.design/products/prism?variant=44685216547068" },
-    { name: "Motion-activated lights", imageUrl: "4-motion-lights.jpg", url: "https://popular.lighting/products/circly" },
+    { name: "Motion-activated lights", imageUrl: "images/4-motion-lights.jpg", url: "https://popular.lighting/products/circly" },
     { name: "Everyday light-up calendar", imageUrl: "images/5-everyday-calendar.jpg", url: "https://yetch.store/products/every-day-goal-calendar" },
     { name: "Wine preserver", imageUrl: "images/6-wine-decanter.jpg", url: "https://usa.etowine.com/collections/eto/products/copper-mirror-finish" },
     { name: "Kindling splitter", imageUrl: "images/7-wood-splitter.jpg", url: "https://www.itoolmax.com/products/wall-mounted-firewood-kindling-splitter" },
