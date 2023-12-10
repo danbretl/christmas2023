@@ -14,6 +14,7 @@ const items = [
     { name: "Full finger wrist guards", imageUrl: "images/13-wrist-guards.jpg", url: "https://fxnctiongear.com/products/sender-wrist-guards?variant=45593109070140" },
     { name: "Colorful jumpsuit", imageUrl: "images/14-jumpsuit.jpg", url: "https://coofandystore.com/products/coofandy-hooded-fleece-solid-color-jumpsuit?variant=43603847905530" },
     { name: "And lots and lots of surprises!", imageUrl: "images/15-surprises.jpg", url: "https://www.google.com/search?q=surprise+gifts+for+artsy+guy+who+loves+bright+colors&client=safari&sca_esv=589532731&rls=en&sxsrf=AM9HkKmjxmKUx8OyZC77aFW0mvl_n-B__Q%3A1702200956902&ei=fIZ1ZYbYNqyU0PEPhMqK-Ac&ved=0ahUKEwiGhv3ayISDAxUsCjQIHQSlAn8Q4dUDCA8&uact=5&oq=surprise+gifts+for+artsy+guy+who+loves+bright+colors&gs_lp=Egxnd3Mtd2l6LXNlcnAiNHN1cnByaXNlIGdpZnRzIGZvciBhcnRzeSBndXkgd2hvIGxvdmVzIGJyaWdodCBjb2xvcnMyCBAhGKABGMMESMMlUMIaWKUhcAF4AJABAJgBZKABlwSqAQM1LjG4AQPIAQD4AQHCAg4QABiABBiKBRiGAxiwA8ICChAhGKABGMMEGAriAwQYASBBiAYBkAYE&sclient=gws-wiz-serp" },
+    { name: "(Thanks ChatGPT)", imageUrl: "images/16-artificial-intelligence.jpg", url: "https://chat.openai.com/" },
 ];
 
 const gridContainer = document.getElementById("itemGrid");
