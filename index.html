@@ -10,8 +10,10 @@
     <div class="container">
         <h1>My Christmas List</h1>
         <form id="giftForm">
-            <label for="giftInput">Add a Gift:</label>
-            <input type="text" id="giftInput" required>
+            <label for="nameInput">Gift Name:</label>
+            <input type="text" id="nameInput" required>
+            <label for="urlInput">Gift URL:</label>
+            <input type="url" id="urlInput" required>
             <button type="button" onclick="addGift()">Add</button>
         </form>
         <ul id="giftList"></ul>

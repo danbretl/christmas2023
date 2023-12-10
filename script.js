@@ -1,15 +1,18 @@
 function addGift() {
-    const giftInput = document.getElementById("giftInput");
+    const nameInput = document.getElementById("nameInput");
+    const urlInput = document.getElementById("urlInput");
     const giftList = document.getElementById("giftList");
 
-    if (giftInput.value !== "") {
+    if (nameInput.value !== "" && urlInput.value !== "") {
         const listItem = document.createElement("li");
         listItem.innerHTML = `
-            <span>${giftInput.value}</span>
+            <span>${nameInput.value}</span>
+            <span><a href="${urlInput.value}" target="_blank">View</a></span>
             <button type="button" onclick="removeGift(this)">Remove</button>
         `;
         giftList.appendChild(listItem);
-        giftInput.value = "";
+        nameInput.value = "";
+        urlInput.value = "";
     }
 }
 
