@@ -64,5 +64,5 @@ body {
     font-size: 36px; /* Larger font size */
     font-weight: bold;
     color: #1e477a; /* Dark icy blue color */
-    margin: 20px auto 0; /* Center the title horizontally and add top margin */
+    margin: 20px auto; /* Center the title horizontally and add margin */
 }

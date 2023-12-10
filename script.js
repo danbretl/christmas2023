@@ -17,15 +17,15 @@ const items = [
     { name: "(Thanks ChatGPT!)", imageUrl: "images/16-artificial-intelligence.jpg", url: "https://github.com/danbretl/christmas2023", description: "ChatGPT created this website and wrote all the descriptions of the items." },
 ];
 
+const gridContainer = document.getElementById("itemGrid");
+
 // Create a title element
 const pageTitle = document.createElement("div");
 pageTitle.textContent = "Dan's Christmas List 2023";
 pageTitle.classList.add("page-title");
 
 // Append the title element to the document body
-document.body.appendChild(pageTitle);
-
-const gridContainer = document.getElementById("itemGrid");
+document.body.insertBefore(pageTitle, gridContainer);
 
 items.forEach(item => {
     const gridItem = document.createElement("div");
