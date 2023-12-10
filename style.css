@@ -47,6 +47,8 @@ body {
 
 .item-name {
     font-weight: bold;
+    font-size: 16px; /* Increase font size for prominence */
+    color: #333; /* Adjust the color for better visibility */
 }
 
 .item-url {
