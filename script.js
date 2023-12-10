@@ -1,11 +1,3 @@
-// Create a title element
-const pageTitle = document.createElement("div");
-pageTitle.textContent = "Dan's Christmas List 2023";
-pageTitle.classList.add("page-title");
-
-// Append the title element to the document body
-document.body.appendChild(pageTitle);
-
 const items = [
     { name: "Moss wall art", imageUrl: "images/1-moss-wall-art-1.jpg", url: "https://mossfusion.com/collections/moss-wall-art", description: "A beautiful piece of moss wall art for your home." },
     { name: "More moss wall art", imageUrl: "images/2-moss-wall-art-2.jpg", url: "https://mossartinstallations.com/collections/all", description: "Explore a variety of moss wall art creations." },
@@ -59,5 +51,4 @@ items.forEach(item => {
     });
 
     gridContainer.appendChild(gridItem);
-
 });

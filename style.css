@@ -58,11 +58,3 @@ body {
     display: block;
     margin-top: 8px;
 }
-
-.page-title {
-    text-align: center;
-    font-size: 24px; /* Extra-large text */
-    font-weight: bold;
-    color: #1e477a; /* Dark icy blue color */
-    margin-bottom: 20px;
-}
