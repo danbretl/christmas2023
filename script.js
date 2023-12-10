@@ -1,3 +1,11 @@
+// Create a title element
+const pageTitle = document.createElement("div");
+pageTitle.textContent = "Dan's Christmas List 2023";
+pageTitle.classList.add("page-title");
+
+// Append the title element to the document body
+document.body.appendChild(pageTitle);
+
 const items = [
     { name: "Moss wall art", imageUrl: "images/1-moss-wall-art-1.jpg", url: "https://mossfusion.com/collections/moss-wall-art", description: "A beautiful piece of moss wall art for your home." },
     { name: "More moss wall art", imageUrl: "images/2-moss-wall-art-2.jpg", url: "https://mossartinstallations.com/collections/all", description: "Explore a variety of moss wall art creations." },
@@ -16,14 +24,6 @@ const items = [
     { name: "And lots and lots of surprises!", imageUrl: "images/15-surprises.jpg", url: "https://www.google.com/search?q=surprise+gifts+for+artsy+guy+who+loves+bright+colors&client=safari&sca_esv=589532731&rls=en&sxsrf=AM9HkKmjxmKUx8OyZC77aFW0mvl_n-B__Q%3A1702200956902&ei=fIZ1ZYbYNqyU0PEPhMqK-Ac&ved=0ahUKEwiGhv3ayISDAxUsCjQIHQSlAn8Q4dUDCA8&uact=5&oq=surprise+gifts+for+artsy+guy+who+loves+bright+colors&gs_lp=Egxnd3Mtd2l6LXNlcnAiNHN1cnByaXNlIGdpZnRzIGZvciBhcnRzeSBndXkgd2hvIGxvdmVzIGJyaWdodCBjb2xvcnMyCBAhGKABGMMESMMlUMIaWKUhcAF4AJABAJgBZKABlwSqAQM1LjG4AQPIAQD4AQHCAg4QABiABBiKBRiGAxiwA8ICChAhGKABGMMEGAriAwQYASBBiAYBkAYE&sclient=gws-wiz-serp", description: "Unwrap the joy of surprises with this special gift!" },
     { name: "(Thanks ChatGPT!)", imageUrl: "images/16-artificial-intelligence.jpg", url: "https://github.com/danbretl/christmas2023", description: "ChatGPT created this website and wrote all the descriptions of the items." },
 ];
-
-// Create a title element
-const pageTitle = document.createElement("div");
-pageTitle.textContent = "Dan's Christmas List 2023";
-pageTitle.classList.add("page-title");
-
-// Append the title element to the document body
-document.body.appendChild(pageTitle);
 
 const gridContainer = document.getElementById("itemGrid");
 
